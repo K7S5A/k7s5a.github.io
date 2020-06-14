@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <title>GRA</title>
+  <link rel="stylesheet" type="text/css" href="styl.css">
+</head>
+<body>
+
+<div class="pasek">
+  <a href="index.html">Główna</a>
+  <a href="tekst.htm">Tekst</a>
+  <a href="tabelki.htm">Tabelki</a>
+  <a class="active" href="gra.htm">GRA</a>
+  <a class="about" href="o_mnie.htm">O mnie</a>
+</div>
+
+<h1>Gra</h1>
+<h2>Kółko i krzyżyk</h2>
+
+
+<div class="plansza leftfloat">
+  <div class="slot" id="0">G</div>
+  <div class="slot" id="1">R</div>
+  <div class="slot" id="2">A</div>
+  <div class="slot" id="3">-</div>
+  <div class="slot" id="4">-</div>
+  <div class="slot" id="5">></div>
+  <div class="slot" id="6">G</div>
+  <div class="slot" id="7">R</div>
+  <div class="slot" id="8">A</div>
+</div>
+
+<div class="rightfloat">
+  <div><h3>Menu</h3></div>
+  <div>Gracz 1:
+    <select id="playerOneTyp">
+      <option value="0" class="typGracza">Wybierz:</option>
+      <option value="1" class="typGracza">Gracz</option>
+      <option value="2" class="typGracza">Komputer (łatwy)</option>
+    </select>
+  </div>
+  <div>Gracz 2:
+    <select id="playerTwoTyp">
+      <option value="0" class="typGracza">Wybierz:</option>
+      <option value="1" class="typGracza">Gracz</option>
+      <option value="2" class="typGracza">Komputer (łatwy)</option>
+    </select>
+  </div>
+  <div>
+    <button class="start">Start</button>
+    <button class="restart">Restart</button>
+    <button class="stop">Stop</button>
+  </div>
+  <br>
+  <br>
+  <div id="reporter">Wybierz graczy<div>
+</div>
+<script src="gra.js"></script>
+</body>
+</html>

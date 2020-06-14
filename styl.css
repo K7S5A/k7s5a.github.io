@@ -88,3 +88,33 @@ table {
   float: right;
   padding: 5px 30px
 }
+
+/* gra */
+
+.plansza {
+  display: flex;
+  background-color: rgb(55,55,55);
+  margin: 3px;
+  padding: 3px;
+  flex-wrap: wrap;
+  width: 396px;
+  height: 396px;
+}
+
+.plansza > div {
+  background-color: rgb(205,205,205);
+  margin: 3px;
+  padding: 20px;
+  height: 86px;
+  width: 86px;
+  font-size: 80px;
+  text-align: center;
+}
+
+.slot:hover {
+  background-color: rgb(80,80,80);
+  color: white;
+}
+
+/* gra-menu */
+
